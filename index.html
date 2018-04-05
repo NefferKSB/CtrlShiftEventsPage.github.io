@@ -11,13 +11,13 @@
     <link rel="stylesheet" type="text/css" href="CSS/CtrlShiftEventsPage.css">
 </head>
 <body>
-<!-- Top -->
-<header id="top_header">
+<!-- Events -->
+<header id="eventsHeader">
     <!-- Navbar Collapse Button -->
-    <nav class="navbar navbar-default navStyle">
+    <nav class="navbar navbar-default" id="navStyle">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navButton" aria-expanded="false">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navButton" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -25,15 +25,13 @@
                 </button>
                 <img src="http://www.ctrlshift.org/wp-content/uploads/2017/10/cropped-white_logo_transparent_background.png" alt="CtrlShift">
             </div>
-            <!-- Navbar Collapse Button End -->
-
             <!--Navbar Link Navigation-->
             <div class="collapse navbar-collapse" id="navButton">
-                <ul class="nav navbar-nav navbar-right" id="scroll">
-                    <li class="centering"><a href="https://nefferksb.github.io/CtrlShift.github.io/" >Home</a></li>
-                    <li class="centering"><a href="#meetTheTeam">When & Where</a></li>
-                    <li href="#" class="dropdown centering">
-                        <a class="dropdown-toggle" href="#language" id="navbarDropdownMenuLink" data-toggle="dropdown" title="">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://nefferksb.github.io/CtrlShift.github.io/" >Home</a></li>
+                    <li><a href="#meetTheTeam">When & Where</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#language" data-toggle="dropdown" title="">
                             Language
                         </a>
                         <ul class="dropdown-menu" role="menu">
@@ -44,13 +42,11 @@
                     </li>
                 </ul>
             </div>
-            <!-- Navbar Link Navigation End -->
         </div>
     </nav>
-    <!-- Navbar End -->
-
-    <div class="wrapper">
-        <div class="calendar">
+    <!--Calendar-->
+    <div id="wrapper">
+        <div id="calendar">
             <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=rjm3qsnc0uv7cgpmv8236nikc4%40group.calendar.google.com&amp;color=%23853104&amp;ctz=Europe%2FBrussels" style="border-width:0" width="800px" height="500px" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="responsive-iframe-container">
@@ -58,13 +54,13 @@
         </div>
     </div>
 </header>
-
+<!--When and Where-->
 <section id="whenWhere">
     <div class="container">
-        <div class="whenWhereTitle">
+        <div id="whenWhereTitle">
             <h1>When & Where</h1>
         </div>
-        <div class="whenWhereTxt">
+        <div id="whenWhereTxt">
             <p class="par">
                 The CtrlShift group has weekly meetings every Thursday from 5pm to 8pm. Can't make it at 5pm, can't stay till 8pm? No problem! Everyone is welcome to come and go as they please. Please be sure to check the meeting location shown in the calendar as meeting locations can change week to week. We hope to see you soon!
             </p>
@@ -74,7 +70,7 @@
 
 <!-- Footer -->
 <footer>
-    <div class="bottom_footer">
+    <div id="footer">
         <div class="container">
             <p>CtrlShift</p>
         </div>
