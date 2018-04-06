@@ -9,7 +9,7 @@ html, body {
   -ms-overflow-scrolling: touch;
   overflow-scrolling: touch;
 }
-#eventsHeader {
+#events-header {
   background: linear-gradient(to bottom right, #1397d5, #fff);
   width: 100%;
   height: 110%;
@@ -21,7 +21,7 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#navStyle {
+#nav-style {
   border-width: 0px;
   -webkit-box-shadow: 0px 0px;
   -moz-box-shadow: 0px 0px;
@@ -144,18 +144,18 @@ ul {
   width: 100%;
   height: 100%;
  }
-#whenWhere {
+#when-where {
   padding-top: 40px;
   padding-bottom: 60px;
 }
-#whenWhereTitle h1 {
+.when-where-title h1 {
   text-align: center;
   color: #545454;
   font-size: 2.5em;
   font-weight: 700;
   margin-bottom: 50px;
 }
-#whenWhereTxt p {
+.when-where-txt p {
   text-align: center;
   color: #8c9597;
   font-size: 1.13em;
