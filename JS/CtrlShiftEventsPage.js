@@ -21,17 +21,12 @@ $(function() {
     var calendar = $("#calendar").fullCalendar({
         googleCalendarApiKey: 'AIzaSyCbWq0s2_RJHTnJ3zhq1Q5H3eIazUMC_yQ',
         events: {
-          googleCalendarId: 'rjm3qsnc0uv7cgpmv8236nikc4@group.calendar.google.com'
+          googleCalendarId: 'rjm3qsnc0uv7cgpmv8236nikc4@group.calendar.google.com',
+          header: {
+            center: 'title'
+          }
         }
-    });
-
-    $('#prev').on('click', function() {
-        calendar.prev(); // call method
-    });
-
-    $('#next').on('click', function() {
-        calendar.next(); // call method
-    });
+    })
 });
 
 
