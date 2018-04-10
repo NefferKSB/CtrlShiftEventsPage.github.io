@@ -108,43 +108,12 @@ ul {
 }
 #wrapper {
   width: 100%;
-  height: 100%
-  text-align: center;
 }
 #calendar {
   width: 700px;
   height: 600px;
   margin: 0 auto;
 }
-.test {
-    background-color: gray;
-    color: pink;
-}
-/*@media screen and (max-width: 820px) {
-#calendar {
-  display:none;
-}
-}
-@media screen and (min-width: 820px) {
-.responsive-iframe-container {
-  display: none;
-}
-}*/
-.responsive-iframe-container {
-  position: relative;
-  padding-bottom: 57%;
-/*   height: 0; */
-/*   overflow: hidden; */
- }
- .responsive-iframe-container iframe,
- .vresponsive-iframe-container object,
- .vresponsive-iframe-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
- }
 #when-where {
   padding-top: 40px;
   padding-bottom: 60px;
@@ -165,7 +134,7 @@ ul {
 }
 #footer {
   text-align: center;
-  background-color: #1397d5;
+  background: linear-gradient(to bottom right, #1397d5, #fff);;
   color: white;
   padding: 30px 0px;
 }
