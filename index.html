@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css">
     <link rel="stylesheet" type="text/css" href="CSS/CtrlShiftEventsPage.css">
 </head>
 <body>
@@ -46,11 +48,19 @@
     </nav>
     <!--Calendar-->
     <div id="wrapper">
+        <p>
+            <button id="prev">prev</button>
+            <button id="next">next</button>
+        </p>
         <div id="calendar">
+<!--
             <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=rjm3qsnc0uv7cgpmv8236nikc4%40group.calendar.google.com&amp;color=%23853104&amp;ctz=Europe%2FBrussels" style="border-width:0" width="800px" height="500px" frameborder="0" scrolling="no"></iframe>
+-->
         </div>
         <div class="responsive-iframe-container">
+<!--
             <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=rjm3qsnc0uv7cgpmv8236nikc4%40group.calendar.google.com&amp;color=%23853104&amp;ctz=Europe%2FBrussels" style="border-width:0" width="80%" height="600" frameborder="0" scrolling="no"></iframe>
+-->
         </div>
     </div>
 </header>
@@ -80,6 +90,9 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="fullcalendar/lib/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+<script src="fullcalendar/gcal.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="JS/CtrlShiftEventsPage.js"></script>
 
