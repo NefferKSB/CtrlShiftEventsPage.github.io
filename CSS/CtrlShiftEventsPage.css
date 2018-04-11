@@ -197,6 +197,15 @@ tr {
   margin: 0 auto;
 }
 #when-where {
+  background: url(cement.jpg);
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
   padding-top: 40px;
   padding-bottom: 60px;
 }
