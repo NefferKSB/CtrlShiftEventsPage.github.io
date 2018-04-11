@@ -25,7 +25,17 @@ $(function() {
           className: 'event-text'
         },
         eventLimit: true,
-        themeSystem: 'bootstrap4', //standard, bootstrap3, bootstrap4, or jquery-ui
+        themeSystem: '', //standard, bootstrap3, bootstrap4, or jquery-ui
+        selectable: true,
+        selectHelper: true,
+        eventRender: function(event,element) {
+          element.popover({
+            animation: true,
+            delay: 300,
+            content: '<b>Inicio</b>:'+event.start+"<b>Fin</b>:"+event.end,
+            trigger: 'hover'
+          });
+        },
         header: {
           left: 'prev,next today',
           center: 'title',

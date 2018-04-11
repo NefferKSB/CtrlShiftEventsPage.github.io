@@ -8,7 +8,7 @@ html, body {
   overflow-scrolling: touch;
 }
 #events-header {
-  background: linear-gradient(to bottom right, #1397d5, #fff);
+  background-color: #1397d5;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -35,10 +35,14 @@ html, body {
   background-image: -ms-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
   background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
   padding: 20px 10px;
+  margin: 0 auto;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  margin: 20 auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
@@ -106,12 +110,73 @@ ul {
   display: block;
   color: #8c9597;
 }
-#wrapper {
-  width: 100%;
+/*fullCalendar styling*/
+.fc-unthemed th,
+.fc-unthemed td,
+.fc-unthemed thead,
+.fc-unthemed tbody,
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-row,
+.fc-unthemed .fc-content,
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-list-view,
+.fc-unthemed .fc-list-heading td {
+  border-color: #545454;
+}
+.fc-day-number {
+  color: #545454;
+}
+.fc-unthemed .fc-popover {
+  background-color: #fff;
+}
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-popover .fc-header,
+.fc-unthemed .fc-list-heading td {
+  background: ;
+}
+.fc-unthemed .fc-popover .fc-header .fc-close {
+  color: #666;
+}
+.fc-unthemed td.fc-today {
+  background: #D67300;
+  opacity: 1;
+}
+.fc-unthemed .fc-disabled-day {
+  background: #d7d7d7;
+  opacity: .3;
+}
+.fc-head {
+  background-color: #1397d5;
+}
+.fc-toolbar.fc-footer-toolbar {
+  display: none;
+}
+.fc-day-grid.fc-unselectable {
+  background-color: #63B8E1;
+}
+tr {
+  color: #545454;
+}
+#events-calendar h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #545454;
+}
+#events-calendar {
+  background-image: url(programming.png) !important;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  padding-top: 14px;
 }
 .event-text {
-  background-color: #337ab7;
-  color: #fff;
+  background-color: #1397d5;
+  color: #545454;
   font-size: .75em;
   padding: 20px 5px;
 }
@@ -120,6 +185,13 @@ ul {
   background-color: #337ab7;
 }
 #calendar {
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 700px;
   margin: 0 auto;
 }
@@ -143,7 +215,7 @@ ul {
 }
 #footer {
   text-align: center;
-  background: linear-gradient(to bottom right, #1397d5, #fff);;
+  background-color: #1397d5;
   color: white;
   padding: 30px 0px;
 }
