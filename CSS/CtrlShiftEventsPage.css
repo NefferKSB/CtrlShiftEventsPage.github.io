@@ -109,9 +109,18 @@ ul {
 #wrapper {
   width: 100%;
 }
+.event-text {
+  background-color: #337ab7;
+  color: #fff;
+  font-size: .75em;
+  padding: 20px 5px;
+}
+.event-text:hover {
+  color: #fff;
+  background-color: #337ab7;
+}
 #calendar {
   width: 700px;
-  height: 600px;
   margin: 0 auto;
 }
 #when-where {
