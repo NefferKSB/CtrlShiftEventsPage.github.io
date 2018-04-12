@@ -24,10 +24,7 @@ $(function() {
           googleCalendarId: 'rjm3qsnc0uv7cgpmv8236nikc4@group.calendar.google.com',
           className: 'event-text'
         },
-        eventLimit: true,
-        themeSystem: '', //standard, bootstrap3, bootstrap4, or jquery-ui
-        selectable: true,
-        selectHelper: true,
+        fixedWeekCount: false,
         eventRender: function(event,element) {
           element.popover({
             animation: true,
@@ -51,28 +48,6 @@ $(function() {
           },
           custom2: {
             //text, icon, themeIcon, bootstrapGlyphicon and click options go here, the click option must be a function
-          }
-        },
-        views: {
-          basic: {
-            //options apply to basicWeek and basicDay views
-            //view-specific options here
-          },
-          month: {
-            //options apply to basicMonth and agendaMonth views
-            //view-specific options here
-          },
-          agenda: {
-            //options apply to agendaWeek and agendaDay views
-            //view-specific options here
-          },
-          week: {
-            //options apply to basicWeek and agendaWeek views
-            //view-specific options here
-          },
-          day: {
-            //options apply to basicDay and agendaDay views
-            //view-specific options here
           }
         }
     })
