@@ -111,7 +111,7 @@ ul {
   color: #8c9597;
 }
 #when-where {
-  background: url("/CtrlShiftEvents.github.io/img/cement.jpg");
+  background: url("../img/cement.jpg");
     width: 100%;
     background-position: center;
     -webkit-background-size: cover;

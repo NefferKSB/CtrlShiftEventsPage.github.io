@@ -52,7 +52,7 @@ tr {
   color: #fff;
 }
 #events-calendar {
-  background: url("/CtrlShiftEvents.github.io/img/programming.png") fixed;
+  background: url("../img/programming.png") fixed;
   width: 100%;
   background-position: center;
   -webkit-background-size: cover;
