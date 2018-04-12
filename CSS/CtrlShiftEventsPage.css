@@ -69,7 +69,7 @@ ul {
   padding-left: 10px;
 }
 .navbar-default .navbar-nav>li>a:hover {
-  color: #1397d5;
+  color: #045C87;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 }
@@ -121,10 +121,10 @@ ul {
 .fc-unthemed .fc-popover,
 .fc-unthemed .fc-list-view,
 .fc-unthemed .fc-list-heading td {
-  border-color: #545454;
+  border-color: #212121;
 }
 .fc-day-number {
-  color: #545454;
+  color: #212121;
 }
 .fc-unthemed .fc-popover {
   background-color: #fff;
@@ -154,8 +154,9 @@ ul {
 .fc-day-grid.fc-unselectable {
   background-color: #63B8E1;
 }
+/*Days of week*/
 tr {
-  color: #545454;
+  color: #212121;
 }
 #events-calendar h2 {
   font-weight: 700;
@@ -163,7 +164,7 @@ tr {
   color: #fff;
 }
 #events-calendar {
-  background: url(programming.png) fixed;
+  background: url(/CtrlShiftEvents.github.io/img/programming.png) fixed;
   width: 100%;
   background-position: center;
   -webkit-background-size: cover;
@@ -177,7 +178,7 @@ tr {
 }
 .event-text {
   background-color: #1397d5;
-  color: #545454;
+  color: #212121;
   font-size: .75em;
   padding: 20px 5px;
 }
@@ -197,7 +198,7 @@ tr {
   margin: 0 auto;
 }
 #when-where {
-  background: url(cement.jpg);
+  background: url(/CtrlShiftEvents.github.io/img/cement.jpg);
     width: 100%;
     background-position: center;
     -webkit-background-size: cover;
