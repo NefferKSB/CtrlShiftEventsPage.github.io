@@ -42,6 +42,55 @@
 .fc-day-grid.fc-unselectable {
   background-color: #63B8E1;
 }
+/*
+  button states
+  borrowed from twitter bootstrap (http://twitter.github.com/bootstrap/)
+*/
+.fc-state-default {
+  background-color: #1397d5;
+  background-image: -moz-linear-gradient(top, #ffffff, #1397d5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#1397d5));
+  background-image: -webkit-linear-gradient(top, #ffffff, #1397d5);
+  background-image: -o-linear-gradient(top, #ffffff, #1397d5);
+  background-image: linear-gradient(to bottom, #ffffff, #1397d5);
+  background-repeat: repeat-x;
+  border-color: #1397d5 #1397d5 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  color: #212121;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.fc-state-hover,
+.fc-state-down,
+.fc-state-active,
+.fc-state-disabled {
+  color: #212121;
+  background-color: #1397d5;
+}
+
+.fc-state-hover {
+  color: #212121;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+.fc-state-down,
+.fc-state-active {
+  background-color: #1397d5;
+  background-image: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.fc-state-disabled {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  box-shadow: none;
+}
 /*Days of week*/
 tr {
   color: #212121;
@@ -82,6 +131,6 @@ tr {
   -ms-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
 }
