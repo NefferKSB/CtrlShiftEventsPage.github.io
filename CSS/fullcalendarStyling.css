@@ -14,9 +14,9 @@
 .fc-day-number {
   color: #212121;
 }
-.fc-unthemed .fc-popover {
+/*.fc-unthemed .fc-popover {
   background-color: #fff;
-}
+}*/
 .fc-unthemed .fc-divider,
 .fc-unthemed .fc-popover .fc-header,
 .fc-unthemed .fc-list-heading td {
@@ -120,7 +120,10 @@ tr {
   padding: 20px 5px;
 }
 .event-text:hover {
-  color: #fff;
+  background-color: #337ab7;
+}
+.fc-event:hover {
+  color: #337ab7;
   background-color: #337ab7;
 }
 #calendar {
