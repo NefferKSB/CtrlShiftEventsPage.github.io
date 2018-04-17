@@ -19,22 +19,9 @@ $(function() {
           left: 'prev,next today',
           center: 'title',
           right: 'month,listMonth'
-        },
-        footer: {
-          //accepts the same exact values as the header option
-          //specifying an empty string for a property will cause it to display no text/buttons
-        },
-        customButtons: {
-          custom1: {
-            //text, icon, themeIcon, bootstrapGlyphicon and click options go here, the click option must be a function
-          },
-          custom2: {
-            //text, icon, themeIcon, bootstrapGlyphicon and click options go here, the click option must be a function
-          }
         }
     })
 });
 
-// Test Overide of fullcalendar JS
 
 

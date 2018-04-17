@@ -91,8 +91,9 @@
   opacity: 0.65;
   box-shadow: none;
 }
-.fc-list-empty {
-  background-color:;
+.fc-unthemed .fc-list-empty {
+  background-color: #63B8E1;
+  text-decoration: underline;
   color:;
   vertical-align: 0;
   padding-top: 50px;
