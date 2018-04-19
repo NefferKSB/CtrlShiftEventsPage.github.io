@@ -131,7 +131,7 @@ button:focus {
 .event-text {
   background-color: #1397d5;
   color: #212121;
-  font-size: .75em;
+  font-size: .65em;
   padding: 20px 5px;
 }
 .event-text:hover {
